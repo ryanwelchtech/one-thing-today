@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>One Thing Today</title>
+  <meta name="description" content="A minimalist daily focus app: choose one meaningful task, complete it, and let everything else wait." />
+  <style>
+    :root{
+      --bg:#0b0b0c; --card:#121214; --border:#1e1e22;
+      --text:#f2f2f2; --muted:#cfcfd4; --muted2:#9a9aa2;
+      --cta:#f2f2f2; --ctaText:#0b0b0c;
+    }
+    body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:var(--text)}
+    .wrap{max-width:920px;margin:0 auto;padding:72px 20px}
+    h1{font-size:46px;margin:0 0 10px;letter-spacing:-0.6px}
+    p{line-height:1.65;color:var(--muted);margin:10px 0}
+    .row{display:grid;grid-template-columns:1fr;gap:14px;margin-top:18px}
+    @media(min-width:760px){.row{grid-template-columns:1fr 1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px}
+    .cta{display:inline-block;padding:12px 16px;border-radius:12px;background:var(--cta);color:var(--ctaText);text-decoration:none;font-weight:700}
+    .muted{font-size:14px;color:var(--muted2)}
+    a{color:var(--text)}
+    .badge{display:inline-block;padding:6px 10px;border:1px solid #2a2a30;border-radius:999px;color:var(--muted);font-size:13px;margin:8px 8px 0 0}
+    .footer{margin-top:26px}
+    .kicker{color:var(--muted2);text-transform:uppercase;letter-spacing:0.14em;font-size:12px;margin-bottom:6px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">Minimal daily focus</div>
+    <h1>One Thing Today</h1>
+    <p>A calm daily focus app. Pick <strong>one</strong> meaningful task and let everything else wait.</p>
+
+    <p>
+      <a class="cta" href="#">Download on the App Store</a>
+      <span class="muted"> (replace with your App Store link)</span>
+    </p>
+
+    <div>
+      <span class="badge">One task per day</span>
+      <span class="badge">Gentle reminders</span>
+      <span class="badge">Streak + history</span>
+      <span class="badge">No ads</span>
+      <span class="badge">Private by default</span>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h2 style="margin:0 0 8px;">Just one thing.</h2>
+        <p style="margin:0;">No lists. No priorities. No pressure. One clear intention for today.</p>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 8px;">Calm motivation.</h2>
+        <p style="margin:0;">Optional daily notifications to help you return to what matters—without noise.</p>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 8px;">Built for real life.</h2>
+        <p style="margin:0;">Fast, distraction-free, and designed to reduce overwhelm—not add to it.</p>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 8px;">Private by default.</h2>
+        <p style="margin:0;">Your daily entry stays on your device. No social feed. No ad tracking.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px;">
+      <h2 style="margin:0 0 8px;">Plus (optional)</h2>
+      <p style="margin:0 0 12px;">Subscriptions unlock extra features like full history and editing.</p>
+      <ul style="margin:0 0 0 18px;color:var(--muted);">
+        <li>Monthly: $2.99</li>
+        <li>Yearly: $19.99</li>
+        <li>Lifetime: $29.99</li>
+      </ul>
+      <p class="muted" style="margin-top:10px;">Pricing may vary by region. Subscriptions are managed via the App Store.</p>
+    </div>
+
+    <div class="footer muted">
+      <a href="./privacy/">Privacy Policy</a> ·
+      <a href="./support/">Support</a> ·
+      <a href="mailto:ryanwelch.nsa@gmail.com">ryanwelch.nsa@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
